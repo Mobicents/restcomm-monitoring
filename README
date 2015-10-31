@@ -1,4 +1,10 @@
-Graylog Content Pack for:
+Restcomm is a next generation Cloud Communications Platform to rapidly build voice and text messaging applications, using mainstream web development skills. 
+Our mission is to remove complexity from the traditional telecom infrastructure and in the process create a mainstream market for communication apps.
+Restcomm is a turnkey Cloud Communications solution from Telestax, Inc. 
+
+Find out more at http://www.restcomm.com/developers/
+
+The restcomm-monitoring repository provides Graylog Content Pack for:
 1. JainSip and Sip Servlets Input metrics
 2. Restcomm application Input metrics
 3. Dashboard with Restcomm metrics
