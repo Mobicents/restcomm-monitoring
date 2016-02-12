@@ -1,4 +1,6 @@
 FROM graylog2/allinone:latest
+RUN  apt-get update \
+  && apt-get install -y wget
 
 COPY ./ConfigureGraylog.sh /etc/my_init.d/configureGraylog.sh
 RUN chmod +x /etc/my_init.d/configureGraylog.sh
