@@ -6,7 +6,7 @@
   "inputs" : [ {
     "title" : "Load Balancer Stats",
     "configuration" : {
-      "configURL" : "http://HostName:StatisticPort/lbstat",
+      "configURL" : "http://AddSeverIP:2006/lbstat",
       "configLabel" : "Load Balancer Stats",
       "configHeadersToRecord" : "",
       "configPassword" : "",
