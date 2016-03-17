@@ -1,0 +1,50 @@
+{
+  "id" : null,
+  "name" : "LoadBalancerMetrics",
+  "description" : "Metrics for the Load Balancer. Includes JVM metrics",
+  "category" : "load balancer",
+  "inputs" : [ {
+    "title" : "Load Balancer Stats",
+    "configuration" : {
+      "configURL" : "http://HostName:StatisticPort/lbstat",
+      "configLabel" : "Load Balancer Stats",
+      "configHeadersToRecord" : "",
+      "configPassword" : "",
+      "configInterval" : 10,
+      "configUsername" : "",
+      "configHttpProxy" : "",
+      "configTimeout" : 20,
+      "configLogResponseBody" : true,
+      "configMethod" : "GET",
+      "configRequestBody" : "",
+      "configTimeoutUnit" : "SECONDS",
+      "configHeadersToSend" : "",
+      "override_source" : "",
+      "configIntervalUnit" : "SECONDS"
+    },
+    "type" : "org.graylog2.plugin.httpmonitor.HttpMonitorInput",
+    "global" : false,
+    "extractors" : [ {
+      "title" : "Load Balancer Stats JSON",
+      "type" : "JSON",
+      "configuration" : {
+        "flatten" : false,
+        "key_separator" : ".",
+        "list_separator" : ", ",
+        "kv_separator" : "="
+      },
+      "converters" : [ ],
+      "order" : 0,
+      "cursor_strategy" : "COPY",
+      "target_field" : "full_message",
+      "source_field" : "full_message",
+      "condition_type" : "NONE",
+      "condition_value" : ""
+    } ],
+    "static_fields" : { }
+  } ],
+  "streams" : [ ],
+  "outputs" : [ ],
+  "dashboards" : [ ],
+  "grok_patterns" : [ ]
+}
