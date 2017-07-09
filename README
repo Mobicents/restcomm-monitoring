@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-monitoring.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-monitoring?ref=badge_shield)
+
 Restcomm is a next generation Cloud Communications Platform to rapidly build voice and text messaging applications, using mainstream web development skills. 
 Our mission is to remove complexity from the traditional telecom infrastructure and in the process create a mainstream market for communication apps.
 Restcomm is a turnkey Cloud Communications solution from Telestax, Inc. 
@@ -10,3 +12,7 @@ The restcomm-monitoring repository provides Graylog Content Pack for:
 3. Dashboard with Restcomm metrics
 
 Use Graylog 1.2.2 or later
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-monitoring.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-monitoring?ref=badge_large)
